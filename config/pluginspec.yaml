@@ -1,0 +1,15 @@
+# This is default sample specification
+# Feel free to change it
+# Call flowpdk showdoc pluginspec to see the list of available fields and their description
+pluginName: 'CB-DSL-DependencyManagement'
+version: '1.0.0'
+description: 'The plugin incapsulates DSL fallback for dependencies handling'
+author: 'CloudBees'
+authorUrl: '<>'
+category: 'Utilities'
+
+procedures:
+-
+  name: DeliverDependencies
+  description: 'This procedure delivers dependencies to the agent/ folder of the plugin on the agent machine'
+  shell: 'ec-perl'
